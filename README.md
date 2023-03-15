@@ -1,47 +1,42 @@
-![special](https://user-images.githubusercontent.com/32303293/98947774-31d69c80-2528-11eb-99df-6889b4209775.png)
+![special](https://user-images.githubusercontent.com/32303293/225433536-a8401d27-40eb-4277-8ccf-e526a19ae37f.png)
 
-# Signal Final Project
+# Signal&System Project
 
-This is group final project in 010123106 Signal and System class KMUTNB.<br>
-An GUI program to control DS1054Z using Tkinter and DS1054Z class
+This is group project in 010123106 Signal and System class KMUTNB.<br>
+An GUI program to modify sound using band frequency like equalizer using Tkinter with FFT Technique
 
-only for Python >= 3.x<br>
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to install dependency before running program.<br>
-codee.py is test file,<br> realwork is testing for gui and  signal_work.py is main program<br>
-wave_sample folder is contain various of signal list that can be use to plot
-<br>when you dont have access to the equiqment(for conveniently coding) <br>
 
 ##How to use<br>
 Create new enviroment or using the exist one and git pull this file
 ```bash
 git init
-git remote origin https://github.com/isarafx/Signal-Final-Project.git
+git remote origin https://github.com/isarafx/equalizer_tkinter.git
 git pull origin main
 ```
 or just using
 ```bash
-git pull https://github.com/isarafx/Signal-Final-Project.git
+git pull https://github.com/isarafx/equalizer_tkinter.git
 ```
-Then install the required dependency first
+Then install the required dependency first (better create virtual enviroment first)
 ```bash
 pip install -r requirements.txt
 ```
 and you could run our program using IDE of your choice or through command line
 ```bash
-python signal_work.py
+python equalizer.py.py
 ```
 
 ### Dependency
 
-* [ds1054z](https://github.com/pklaus/ds1054z) - for doing most things with ds1054z
+* Sounddevice & Soundfile - for handle and process sound file
 * [NumPY](https://github.com/numpy/numpy) - not crucial but useful tools for create ploting list
 * Tkinter - gui
 * [Matplotlib](https://github.com/matplotlib/matplotlib) - for plotting graph
 
-Our Group consist of 3 members
+Our Group consist of 2 members
 
   - Mr.Isara Kunudomchhaiwat 6001012610097
-  - Mr.Phichet Eaktrakul 6001012630071
-  - Mr.Saksit Wilainuch6001012630144
+  - Mr.Sarawut Chunthet 6001012610089
 
 
