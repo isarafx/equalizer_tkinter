@@ -2,13 +2,13 @@
 
 # Signal&System Project
 
-This is group project in 010123106 Signal and System class KMUTNB.<br>
-An GUI program to modify sound using band frequency like equalizer using Tkinter with FFT Technique
+This is a group project for the 010123106 Signal and System class at KMUTNB.<br>
+The project involves a GUI program to modify sound using band frequency, similar to an equalizer, using Tkinter with FFT Technique.
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install dependency before running program.<br>
+Before running the program, please use the package manager [pip](https://pip.pypa.io/en/stable/) to install dependencies.<br>
 
 ##How to use<br>
-Create new enviroment or using the exist one and git pull this file
+Create a new environment or use an existing one and git pull this file. 
 ```bash
 git init
 git remote origin https://github.com/isarafx/equalizer_tkinter.git
@@ -18,23 +18,23 @@ or just using
 ```bash
 git pull https://github.com/isarafx/equalizer_tkinter.git
 ```
-Then install the required dependency first (better create virtual enviroment first)
+Then, install the required dependencies (better create virtual environment first) 
 ```bash
 pip install -r requirements.txt
 ```
-and you could run our program using IDE of your choice or through command line
+You can run the program using your preferred IDE or through the command line using the following command:
 ```bash
 python equalizer.py.py
 ```
 
-### Dependency
+###Dependencies:
 
-* Sounddevice & Soundfile - for handle and process sound file
-* [NumPY](https://github.com/numpy/numpy) - not crucial but useful tools for create ploting list
-* Tkinter - gui
-* [Matplotlib](https://github.com/matplotlib/matplotlib) - for plotting graph
+* Sounddevice & Soundfile - for handling and processing sound files
+* NumPY - not crucial but useful tools for creating plotting lists
+* Tkinter - GUI
+* Matplotlib - for plotting graphs
 
-Our Group consist of 2 members
+Our group consists of two members:
 
   - Mr.Isara Kunudomchhaiwat 6001012610097
   - Mr.Sarawut Chunthet 6001012610089
